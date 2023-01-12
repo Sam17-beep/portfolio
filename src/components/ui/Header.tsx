@@ -1,8 +1,12 @@
 import React from 'react'
+import styles from '../../styles/Header.module.css'
 
-const Header = () => {
+interface HeaderProps {}
+const Header = ({}: HeaderProps) => {
   return (
-    <div>Header</div>
+    <div className={styles.header}>
+      <div className={styles.font}>Sam Gre</div>
+    </div>
   )
 }
 

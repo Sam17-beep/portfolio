@@ -1,0 +1,19 @@
+.font {
+  color: var(--accent-color);
+
+  position: relative;
+  margin-left: var(--side-margin);
+  top: 41px;
+
+  font-family: 'Interstate';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.header {
+  border-bottom: solid 1px var(--accent-color);
+  width: 100%;
+  height: 100px;
+}

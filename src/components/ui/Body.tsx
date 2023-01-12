@@ -1,8 +1,15 @@
 import React from 'react'
+import styles from '../../styles/Body.module.css'
+import TitlePage from './Body/TitlePage'
+import Folder from './Body/Folder'
 
-const Body = () => {
+interface BodyProps {}
+const Body = ({}: BodyProps) => {
   return (
-    <div>Body</div>
+    <div className={styles.body}>
+      <TitlePage />
+      <Folder />
+    </div>
   )
 }
 
