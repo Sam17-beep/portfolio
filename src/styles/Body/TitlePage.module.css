@@ -9,3 +9,40 @@
   color: var(--primary-color);
   margin-right: 468px;
 }
+
+.arrowButton {
+  position: absolute;
+  top: 46vh;
+  left: 63vw;
+
+  width: 22vw;
+  height: 22vw;
+}
+
+.pastille {
+  color: var(--accent-color);
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  width: 30vw;
+
+  border: 1px solid var(--accent-color);
+  border-right: none;
+
+  height: 8.3vh;
+  border-radius: 50px 0 0 50px;
+
+  position: absolute;
+  top: 29vh;
+  right: 0;
+}
+
+.pastilleText {
+  position: absolute;
+  left: 5.79%;
+  right: 35.09%;
+  top: 33%;
+  bottom: 34%;
+}
