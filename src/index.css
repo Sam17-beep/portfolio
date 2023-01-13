@@ -1,10 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Inter');
+@import url('https://fonts.googleapis.com/css?family=Unbounded');
 :root {
   --primary-color: #f2f2f2;
   --secondary-color: #2749ff;
   --accent-color: #e5f743;
 
-  --side-margin: 12.5rem;
+  --side-margin: 10vw;
 
+  --primary-font: Unbounded;
+  --secondary-font: Inter;
   background: radial-gradient(50% 50% at 50% 50%, #2f2f2f 0%, #161616 100%);
 }
 

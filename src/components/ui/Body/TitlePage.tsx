@@ -6,7 +6,12 @@ interface TitlePageProps {}
 const TitlePage = ({}: TitlePageProps) => {
   return (
     <div>
-      <div className={styles.title}>Salut, salut,voici mon portfolio.</div>
+      <div className={styles.title}>
+        Salut, salut,
+        <br />
+        voici mon
+        <br /> portfolio.
+      </div>
     </div>
   )
 }

@@ -1,11 +1,11 @@
 .title {
-  font-family: 'Moret';
+  font-family: var(--primary-font);
   font-style: normal;
   font-weight: 400;
-  font-size: 9.375rem;
-  line-height: 174px;
+  font-size: 110px;
+  line-height: 136px;
   text-transform: uppercase;
-
+  white-space: nowrap;
   color: var(--primary-color);
   margin-right: 468px;
 }

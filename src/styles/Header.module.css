@@ -5,7 +5,7 @@
   margin-left: var(--side-margin);
   top: 41px;
 
-  font-family: 'Interstate';
+  font-family: var(--secondary-font);
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
