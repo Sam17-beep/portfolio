@@ -9,7 +9,7 @@
   font-family: var(--primary-font);
   font-style: normal;
   font-weight: 400;
-  font-size: 11rem;
+  font-size: min(6vw, 11rem);
   line-height: 13.6rem;
   text-transform: uppercase;
   color: var(--primary-color);
@@ -17,15 +17,15 @@
 
 .arrowButton {
   position: relative;
-  top: -15vh;
-  left: 65vw;
+  top: clamp(-250px, -11vh, -350px);
+  left: clamp(800px, 60vw, 1248px);
   width: 22vw;
   height: 22vw;
 }
 
 .pastille {
   margin-top: 3vh;
-  height: 10rem;
+  height: clamp(3rem, 9vh, 10rem);
   border: 1px solid var(--accent-color);
   border-right: none;
   border-radius: 50px 0 0 50px;

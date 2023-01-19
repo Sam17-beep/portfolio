@@ -5,10 +5,10 @@ import styles from '../../styles/bigComponents/NavBar.module.css'
 const NavBar = () => {
   return (
     <div className={styles.navBar} id="navBar">
-      <button>Accueil</button>
-      <button>Projets</button>
-      <button>Expériences</button>
-      <button>Contact</button>
+      <NavButton>Accueil</NavButton>
+      <NavButton>Projets</NavButton>
+      <NavButton>Expériences</NavButton>
+      <NavButton>Contact</NavButton>
     </div>
   )
 }

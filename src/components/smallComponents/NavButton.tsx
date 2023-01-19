@@ -6,7 +6,11 @@ interface NavButtonProps {
 }
 
 const NavButton = ({ children }: NavButtonProps) => {
-  return <button className={styles.button}>{children}</button>
+  return (
+    <div className={styles.button}>
+      <p className={styles.buttonText}>{children}</p>
+    </div>
+  )
 }
 
 export default NavButton
