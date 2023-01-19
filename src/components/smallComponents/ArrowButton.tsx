@@ -1,8 +1,9 @@
-import React from 'react'
+import { useRef } from 'react'
 import styles from '../../styles/smallComponents/ArrowButton.module.css'
 
 interface ArrowButtonProps {
   className?: string
+  // onClick: React.MouseEventHandler<HTMLButtonElement>
 }
 
 const ArrowButton: React.FC<ArrowButtonProps> = ({ className }) => {

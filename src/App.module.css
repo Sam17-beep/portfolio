@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Inter');
+@import url('https://fonts.googleapis.com/css?family=Unbounded');
+:root {
+  --primary-color: #f2f2f2;
+  --secondary-color: #2749ff;
+  --accent-color: #e5f743;
+  --side-margin: 10%;
+  --primary-font: Unbounded;
+  --secondary-font: Inter;
+
+  /* So 1 rem --> 10px */
+  font-size: 62.5%;
+  overflow-x: hidden;
+}

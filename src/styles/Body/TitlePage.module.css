@@ -1,48 +1,48 @@
+.container {
+  display: flex;
+  padding-left: var(--side-margin);
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
 .title {
   font-family: var(--primary-font);
   font-style: normal;
   font-weight: 400;
-  font-size: 110px;
-  line-height: 136px;
+  font-size: 11rem;
+  line-height: 13.6rem;
   text-transform: uppercase;
-  white-space: nowrap;
   color: var(--primary-color);
-  margin-right: 468px;
 }
 
 .arrowButton {
-  position: absolute;
-  top: 46vh;
-  left: 63vw;
-
+  position: relative;
+  top: -15vh;
+  left: 65vw;
   width: 22vw;
   height: 22vw;
 }
 
 .pastille {
+  margin-top: 3vh;
+  height: 10rem;
+  border: 1px solid var(--accent-color);
+  border-right: none;
+  border-radius: 50px 0 0 50px;
+  width: 25vw;
+}
+
+.pastilleText {
+  position: relative;
+  left: 5.79%;
+  right: 35.09%;
+  top: 50%;
+  transform: translateY(-50%);
+
   color: var(--accent-color);
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 19px;
-  width: 30vw;
-
-  border: 1px solid var(--accent-color);
-  border-right: none;
-
-  height: 8.3vh;
-  border-radius: 50px 0 0 50px;
-
-  position: absolute;
-  top: 29vh;
-  right: 0;
-}
-
-.pastilleText {
-  position: absolute;
-  left: 5.79%;
-  right: 35.09%;
-  top: 33%;
-  bottom: 34%;
+  font-size: 1.6rem;
+  line-height: 1.9rem;
 }

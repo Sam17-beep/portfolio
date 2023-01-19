@@ -5,7 +5,7 @@ import Footer from './components/ui/Footer'
 
 function App() {
   return (
-    <div>
+    <div className={styles.background}>
       <Header />
       <Body />
       <Footer />
