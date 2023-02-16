@@ -1,9 +1,14 @@
 import { useRef } from 'react'
 import styles from '../../../styles/Body/TitlePage.module.css'
 import ArrowButton from '../../smallComponents/ArrowButton'
-interface TitlePageProps {}
+interface TitlePageProps {
+  arrowClick: Function
+}
 
-const TitlePage = ({}: TitlePageProps) => {
+const TitlePage = ({ arrowClick }: TitlePageProps) => {
+  const arrowButtonClickHandler = () => {
+    arrowClick()
+  }
   return (
     <>
       <div className={styles.container}>
@@ -16,12 +21,9 @@ const TitlePage = ({}: TitlePageProps) => {
           <p className={styles.pastilleText}>Étudiant en génie logiciel</p>
         </div>
       </div>
-      <ArrowButton
-        className={styles.arrowButton}
-        // onClick={() => {
-        //   console.log('2')
-        // }}
-      />
+      <div onClick={arrowButtonClickHandler}>
+        <ArrowButton className={styles.arrowButton} />
+      </div>
     </>
   )
 }
