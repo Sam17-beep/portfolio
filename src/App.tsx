@@ -1,7 +1,7 @@
 import styles from './App.module.css'
-import Header from './components/ui/Header'
-import Body from './components/ui/Body'
-import Footer from './components/ui/Footer'
+import Header from './components/Header/Header'
+import Body from './components/Body/Body'
+import Footer from './components/Footer/Footer'
 
 function App() {
   return (

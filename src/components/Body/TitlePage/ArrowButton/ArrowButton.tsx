@@ -1,5 +1,5 @@
 import { useRef } from 'react'
-import styles from '../../styles/smallComponents/ArrowButton.module.css'
+import styles from './ArrowButton.module.css'
 
 interface ArrowButtonProps {
   className?: string

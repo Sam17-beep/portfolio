@@ -1,8 +1,8 @@
 import React from 'react'
-import NavBar from '../../bigComponents/NavBar'
-import File from '../../bigComponents/File'
+import NavBar from './NavBar/NavBar'
+import File from './File/File'
 
-import styles from '../../../styles/Body/Folder.module.css'
+import styles from './Folder.module.css'
 
 interface FolderProps {}
 

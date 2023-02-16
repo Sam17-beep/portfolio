@@ -1,7 +1,7 @@
 import React from 'react'
-import styles from '../../styles/Body.module.css'
-import TitlePage from './Body/TitlePage'
-import Folder from './Body/Folder'
+import styles from './Body.module.css'
+import TitlePage from './TitlePage/TitlePage'
+import Folder from './Folder/Folder'
 
 interface BodyProps {}
 const Body = ({}: BodyProps) => {

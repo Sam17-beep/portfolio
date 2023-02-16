@@ -1,6 +1,6 @@
 import { useRef } from 'react'
-import styles from '../../../styles/Body/TitlePage.module.css'
-import ArrowButton from '../../smallComponents/ArrowButton'
+import styles from './TitlePage.module.css'
+import ArrowButton from './ArrowButton/ArrowButton'
 interface TitlePageProps {
   arrowClick: Function
 }
@@ -11,6 +11,7 @@ const TitlePage = ({ arrowClick }: TitlePageProps) => {
   }
   return (
     <>
+      x
       <div className={styles.container}>
         <p className={styles.title}>
           Salut, salut, <br />

@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import styles from '../../styles/smallComponents/NavButton.module.css'
+import styles from './NavButton.module.css'
 
 interface NavButtonProps {
   children: string

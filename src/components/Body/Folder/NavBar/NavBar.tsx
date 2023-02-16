@@ -1,6 +1,6 @@
 import { useReducer, useState } from 'react'
-import NavButton from '../smallComponents/NavButton'
-import styles from '../../styles/bigComponents/NavBar.module.css'
+import NavButton from './NavButton/NavButton'
+import styles from './NavBar.module.css'
 
 const NavBar = () => {
   const [open, setOpen] = useState([true, false, false, false])
