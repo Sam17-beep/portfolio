@@ -11,7 +11,6 @@ const TitlePage = ({ arrowClick }: TitlePageProps) => {
   }
   return (
     <>
-      x
       <div className={styles.container}>
         <p className={styles.title}>
           Salut, salut, <br />

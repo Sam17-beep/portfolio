@@ -1,10 +1,12 @@
-import { useReducer, useState } from 'react'
+import {} from 'react'
 import NavButton from './NavButton/NavButton'
 import styles from './NavBar.module.css'
 
-const NavBar = () => {
-  const [open, setOpen] = useState([true, false, false, false])
-
+interface NavBarProps {
+  setOpen: Function
+  open: boolean[]
+}
+const NavBar = ({ setOpen, open }: NavBarProps) => {
   const accueilClickHandler = () => {
     setOpen([true, false, false, false])
   }
