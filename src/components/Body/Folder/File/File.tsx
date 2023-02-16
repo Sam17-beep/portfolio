@@ -1,6 +1,5 @@
-import React from 'react'
 import styles from './File.module.css'
-import AccueilFile from './AccueilFile/AccueilFile'
+// import AccueilFile from './AccueilFile/AccueilFile'
 import ProjetsFile from './ProjetsFile/ProjetsFile'
 import ExperienceFile from './ExperienceFile/ExperienceFile'
 import ContactFile from './ContactFile/ContactFile'
@@ -10,7 +9,7 @@ interface FileProps {
 }
 const File = ({ open }: FileProps) => {
   const files = [
-    <AccueilFile />,
+    // <AccueilFile />,
     <ProjetsFile />,
     <ExperienceFile />,
     <ContactFile />,

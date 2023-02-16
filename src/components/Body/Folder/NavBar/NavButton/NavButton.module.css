@@ -36,4 +36,5 @@
   width: 27.2rem;
   height: 50px;
   background-color: var(--secondary-color);
+  z-index: -1;
 }
